@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Iniciar Sesion</title>
+</head>
+<body class="bg-light">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand text-white d-none d-lg-block " >UttFood</a>
+            <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">INICIO</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link">CONOCENOS</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link">AYUDA</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          COMIDA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Papas</a></li>
+                          <li><a class="dropdown-item" href="#">Dulces</a></li>
+                          <li><a class="dropdown-item" href="#">Sandwiches</a></li>
+                          <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Mas...</a></li>
+                        </ul>
+                </ul>
+                <button class="btn btn-primary" type="submit">Iniciar Sesion</button>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="¿Que quieres buscar?" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+              </form>
+        </nav>
+    </div>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col d-none d-lg-block " style="text-align: center;">
+                <img src="../IMG/UTTcoyote.png" style="width: 60%;">
+            </div>
+            <div class="col bg-white" style="margin: auto; border-radius: 10px;">
+                <h2 style="text-align: center;">Iniciar Sesion</h2>
+                <form action="">
+                    <label class="form-label" for="ema">Correo:</label><input class="form-control" type="email" name="ema" placeholder="Escribe tu correo...">
+                    <label class="form-label" for="pass">Contraseña:</label><input class="form-control" type="password" name="pass" placeholder="Escribe tu contraseña...">
+                </form>
+                <a href="">>Olvide mi contraseña</a><br>
+                <hr><br>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-outline-success btn-lg" type="button">Iniciar Sesion</button>
+                </div><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
